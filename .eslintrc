@@ -1,0 +1,24 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": 0,
+		"new-cap": [2, {
+			"capIsNewExceptions": [
+				"IsArray",
+			]
+		}],
+		"no-magic-numbers": 0,
+	},
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"max-len": 0,
+			},
+		},
+	],
+}
